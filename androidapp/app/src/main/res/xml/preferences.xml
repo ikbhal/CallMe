@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:dialogTitle="Enter Phone Number"
+        android:key="phoneNumber"
+        android:summary="Enter phone number of the person you want to call"
+        android:title="Enter Phone Number" />
+</PreferenceScreen>

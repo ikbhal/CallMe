@@ -1,0 +1,16 @@
+1)call number
+
+Intent phoneIntent = new Intent(Intent.ACTION_CALL);
+phoneIntent.setData(Uri.parse("tel:09703035627")); 
+//below thin also work
+//phoneIntent.setData(Uri.parse("tel:09703035627"));
+//but this wont work
+//phoneIntent.data = Uri.parse("tel:91-970-303-5627")
+
+2)settings activity
+
+val prefs = PreferenceManager.getDefaultSharedPreferences(this)
+prefs.getBoolean("checkbox", false).toString()
+prefs.getString("ringtone", "<unset>")
+prefs.getString("text", "<unset>")
+prefs.getString("list", "<unset>")

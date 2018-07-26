@@ -1,0 +1,7 @@
+1)call number from mobile
+2)set the number, name settings
+3)remind to call number
+4)push notifcation to remind
+5)ring alarm 
+6)report on how many times called
+how many minutes called per day, per week, per month
