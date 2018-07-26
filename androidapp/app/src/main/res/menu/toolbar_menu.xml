@@ -6,7 +6,13 @@
     <item
         android:id="@+id/settings"
         android:title="Settings"
-        android:action="@android:drawable/ic_menu_preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
         app:showAsAction="ifRoom"
         />
+    <item
+        android:id="@+id/contacts"
+        android:title="Contacts"
+        app:showAsAction="ifRoom"
+        />
+
 </menu>

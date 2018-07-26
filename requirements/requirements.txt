@@ -5,3 +5,4 @@
 5)ring alarm 
 6)report on how many times called
 how many minutes called per day, per week, per month
+7)remind more than one person

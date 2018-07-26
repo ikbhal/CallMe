@@ -10,7 +10,63 @@ phoneIntent.setData(Uri.parse("tel:09703035627"));
 2)settings activity
 
 val prefs = PreferenceManager.getDefaultSharedPreferences(this)
-prefs.getBoolean("checkbox", false).toString()
-prefs.getString("ringtone", "<unset>")
-prefs.getString("text", "<unset>")
-prefs.getString("list", "<unset>")
+prefs.getString("text", "phoneNumber")
+
+
+3)back button in toolbar
+
+onCreate method
+        val actionBar = supportActionBar
+
+        // Set the action bar title, subtitle and elevation
+        actionBar!!.title = "Settings"
+        actionBar.subtitle = "Chane loved ones phone number"
+        actionBar.elevation = 4.0F
+
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+
+add or edit seperate method
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        return if (item?.itemId == android.R.id.home) {
+            finish()
+            true
+        } else {
+            super.onOptionsItemSelected(item)
+        }
+    }
+
+---
+done 4)add admob 
+done 5)publish app      
+done )listend for preference change
+
+done)setting preference type keyboard android:inputType="phone"
+---
+not possible
+reupload as different name
+check in build.gradle, android manifest
+
+requet app permissions on code
+
+done
+---
+)reminder to call every day
+)rename pacakge 
+---
+
+)selecting favorite contacts from android app contacts
+)show list view activity, list adapter
+)adding contacts by dialog/activity -> activity
+)edit contact in activity
+)edit contact in place list view item
+)delete contact
+)mark the called today
+)call history
+)send message to call loved one in android tray
+)enable ads while publishing
+)check unique name callma callbro
+
+--
+)saving contacts in room db
+---
